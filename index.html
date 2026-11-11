@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brasa Burger | Hamburgueria artesanal em Salvador</title>
+  <meta name="description" content="Brasa Burger: hambúrgueres artesanais feitos na hora, com delivery e retirada em Salvador, BA. Terça a domingo, das 18h às 23h.">
+  <meta property="og:title" content="Brasa Burger | O sabor que deixa marca.">
+  <meta property="og:description" content="Hambúrgueres artesanais com delivery e retirada em Salvador.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#111111">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23111'/%3E%3Cpath d='M50 14c6 16 24 24 24 46a24 24 0 0 1-48 0c0-12 6-18 12-26 2 8 6 12 10 12-4-12-2-22 2-32z' fill='%23FF6B1A'/%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Restaurant","name":"Brasa Burger","servesCuisine":"Hambúrguer artesanal","address":{"@type":"PostalAddress","streetAddress":"Rua das Brasas, 123 (endereço demonstrativo)","addressLocality":"Salvador","addressRegion":"BA","addressCountry":"BR"},"openingHours":"Tu-Su 18:00-23:00"}
+  </script>
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo" aria-label="Brasa Burger, início">BRASA<span>BURGER</span></a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#inicio">Início</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+      <a href="#contato" class="btn btn--primary nav__cta">Peça agora</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="hero__tag">Hamburgueria artesanal em Salvador</p>
+        <h1><span>O sabor</span><span>que deixa</span><span>marca.</span></h1>
+        <p class="hero__text">Carne moída na casa, pão macio e molhos feitos aqui. Cada hambúrguer sai da chapa quando você pede, em Salvador, para entrega ou retirada.</p>
+        <div class="hero__actions">
+          <a href="#cardapio" class="btn btn--primary">Conheça nosso cardápio</a>
+          <a href="https://wa.me/5571999999999?text=Ol%C3%A1%21%20Quero%20fazer%20um%20pedido%20na%20Brasa%20Burger." class="btn btn--ghost" target="_blank" rel="noopener">Peça pelo WhatsApp</a>
+        </div>
+      </div>
+      <figure class="hero__photo">
+        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1100&q=80" alt="Hambúrguer artesanal com queijo derretido" fetchpriority="high">
+        <svg class="stamp" viewBox="0 0 120 120" aria-hidden="true">
+          <circle cx="60" cy="60" r="58" fill="#111"/>
+          <circle cx="60" cy="60" r="56" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="60" cy="60" r="46" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3 4"/>
+          <path d="M60 24c5 13 20 20 20 38a20 20 0 0 1-40 0c0-10 5-15 10-21 2 7 5 10 8 10-3-10-2-18 2-27z" fill="currentColor"/>
+        </svg>
+      </figure>
+    </div>
+    <dl class="container hero__facts">
+      <div><dt>Atendimento</dt><dd>Delivery e retirada</dd></div>
+      <div><dt>Funcionamento</dt><dd>Terça a domingo, 18h às 23h</dd></div>
+      <div><dt>Onde estamos</dt><dd>Salvador, Bahia</dd></div>
+    </dl>
+  </section>
+
+  <section class="section" id="cardapio">
+    <div class="container">
+      <div class="section__head">
+        <h2>Cardápio</h2>
+        <p>Toque em “Pedir” e o item já vai na mensagem do WhatsApp.</p>
+      </div>
+      <div class="menu">
+        <article class="card">
+          <div class="card__img"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=75" alt="Brasa Smash, dois discos de carne com cheddar" loading="lazy"></div>
+          <div class="card__body">
+            <div class="card__top"><h3>Brasa Smash</h3><span class="price">R$ 29,90</span></div>
+            <p>Dois discos de carne, cheddar, cebola caramelizada e molho especial.</p>
+            <a class="btn btn--small order" data-item="Brasa Smash" href="#">Pedir</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__img"><img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=800&q=75" alt="Bacon Fire, hambúrguer com bacon crocante" loading="lazy"></div>
+          <div class="card__body">
+            <div class="card__top"><h3>Bacon Fire</h3><span class="price">R$ 34,90</span></div>
+            <p>Hambúrguer artesanal, cheddar, bacon crocante e molho barbecue.</p>
+            <a class="btn btn--small order" data-item="Bacon Fire" href="#">Pedir</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__img"><img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=800&q=75" alt="Chicken Crunch, sanduíche de frango crocante" loading="lazy"></div>
+          <div class="card__body">
+            <div class="card__top"><h3>Chicken Crunch</h3><span class="price">R$ 27,90</span></div>
+            <p>Frango crocante, alface, queijo e molho da casa.</p>
+            <a class="btn btn--small order" data-item="Chicken Crunch" href="#">Pedir</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__img"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=75" alt="Batata Brasa, batata frita com cheddar e bacon" loading="lazy"></div>
+          <div class="card__body">
+            <div class="card__top"><h3>Batata Brasa</h3><span class="price">R$ 19,90</span></div>
+            <p>Batata frita com cheddar e bacon.</p>
+            <a class="btn btn--small order" data-item="Batata Brasa" href="#">Pedir</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="sobre">
+    <div class="container about">
+      <div class="about__text">
+        <h2>Nascemos de uma chapa quente e um quintal em Salvador.</h2>
+        <p>A Brasa Burger começou em 2019, nos fins de semana, com uma chapa de ferro e uma receita de família. Os amigos pediam mais, a fila crescia na calçada, e a brincadeira virou hamburgueria.</p>
+        <p>Hoje o jeito de fazer continua o mesmo: escolhemos os cortes de carne, moemos aqui, montamos cada lanche na hora e servimos quente. Sem atalho e sem molho de pacote.</p>
+      </div>
+      <ul class="features">
+        <li><h3>Ingredientes selecionados</h3><p>Carne de corte nobre, queijos de boa procedência e pão fresco.</p></li>
+        <li><h3>Preparado na hora</h3><p>Nada fica pronto esperando. A chapa liga quando o seu pedido entra.</p></li>
+        <li><h3>Atendimento de qualidade</h3><p>Pedido confirmado pelo WhatsApp, com tempo de entrega claro.</p></li>
+        <li><h3>Delivery</h3><p>Entregamos em Salvador, em embalagem que mantém o lanche quente.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="depoimentos">
+    <div class="container">
+      <div class="section__head">
+        <h2>Quem já provou</h2>
+        <p>Depoimentos demonstrativos: nomes e falas fictícios, criados para este projeto de portfólio.</p>
+      </div>
+      <div class="quotes">
+        <figure class="quote quote--main">
+          <blockquote>Pedi numa terça à noite e o Bacon Fire chegou quente, com o bacon ainda crocante. Delivery que cumpre isso é raro.</blockquote>
+          <figcaption><span class="avatar">MS</span><span>Marina S.<small>Cliente fictícia, Pituba</small></span></figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>A Batata Brasa some da mesa em dois minutos.</blockquote>
+          <figcaption><span class="avatar">RT</span><span>Rafael T.<small>Cliente fictício, Rio Vermelho</small></span></figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>Retirei no balcão e vi o lanche sair da chapa. Vale cada centavo.</blockquote>
+          <figcaption><span class="avatar">CO</span><span>Camila O.<small>Cliente fictícia, Barra</small></span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--line" id="contato">
+    <div class="container contact">
+      <div>
+        <h2>Faça seu pedido</h2>
+        <p class="contact__lead">Chame no WhatsApp para pedir com entrega ou retirada.</p>
+        <a href="https://wa.me/5571999999999?text=Ol%C3%A1%21%20Quero%20fazer%20um%20pedido%20na%20Brasa%20Burger." class="btn btn--primary" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+      </div>
+      <dl class="info">
+        <div><dt>Endereço (demonstrativo)</dt><dd>Rua das Brasas, 123, Pituba<br>Salvador, BA</dd></div>
+        <div><dt>Horário</dt><dd>Terça a domingo, das 18h às 23h</dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://instagram.com/brasaburger.oficial" target="_blank" rel="noopener">@brasaburger.oficial</a></dd></div>
+        <div><dt>Atendimento</dt><dd>Delivery e retirada</dd></div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__top">
+    <div class="footer__brand">
+      <a href="#inicio" class="logo">BRASA<span>BURGER</span></a>
+      <p>O sabor que deixa marca.</p>
+      <a href="https://wa.me/5571999999999" class="btn btn--small" target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+    </div>
+    <nav aria-label="Rodapé">
+      <h3>Navegue</h3>
+      <a href="#inicio">Início</a><a href="#cardapio">Cardápio</a><a href="#sobre">Sobre</a><a href="#depoimentos">Depoimentos</a><a href="#contato">Contato</a>
+    </nav>
+    <div>
+      <h3>Horário</h3>
+      <p>Terça a domingo<br>das 18h às 23h</p>
+      <p>Delivery e retirada</p>
+    </div>
+    <div>
+      <h3>Fale com a gente</h3>
+      <a href="https://instagram.com/brasaburger.oficial" target="_blank" rel="noopener">@brasaburger.oficial</a>
+      <a href="https://wa.me/5571999999999" target="_blank" rel="noopener">WhatsApp</a>
+      <p>Rua das Brasas, 123, Pituba<br>Salvador, BA (demonstrativo)</p>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <p>© 2026 Brasa Burger. Todos os direitos reservados. Projeto fictício de portfólio.</p>
+    <a href="#inicio">Voltar ao topo</a>
+  </div>
+</footer>
+
+<a class="wpp" href="https://wa.me/5571999999999?text=Ol%C3%A1%21%20Quero%20fazer%20um%20pedido%20na%20Brasa%20Burger." target="_blank" rel="noopener" aria-label="Pedir pelo WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.3 14.7l-.3-.2-2.4.6.7-2.3-.2-.3A8 8 0 0 1 12 4zM8.6 7.5c-.3 0-.7.1-.9.6-.4.9 0 2.2 1.1 3.600 1.200 1.500 2.500 2.500 3.900 2.900.6.2 1.400-.2 1.600-.8l.1-.6-1.700-.8-.6.7c-.9-.3-1.900-1.200-2.300-2.200l.6-.6-.6-1.900c-.1-.2-.3-.9-.6-.9z"/></svg>
+  <span>Peça pelo WhatsApp</span>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
